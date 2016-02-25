@@ -27,7 +27,6 @@ while user_name = gets.chomp
   	# # ADD CODE TO ITERATE THROUGH EACH TWEET AND PRINT ITS TEXT
   		data_hash = tweets.map {|x,y| y }
  			puts tweets
- 			data = tweets
 
  				File.open("twitsentiment.json", "a") do |f|
   			f.puts(tweets.to_json)
@@ -56,21 +55,21 @@ while user_name = gets.chomp
       puts "Please Input tweet counts"
   	  tweet_count = gets.chomp.to_i
 
- 			response = access_token.request(:get, "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=JstLeslie&count=50")
+ 			response = access_token.request(:get, "https://api.twitter.com/1.1/statuses/user_timeline.json?screen_name=#{screen_name}&count=#{tweet_count}")
  			result = {}
 				if response.code == '200' then
   				tweets = JSON.parse(response.body)
   				# print tweets
   				# result = {}
-  				tweets.each do |x|
+  			  tweets.each do |x|
   				result["#{x['user']['screen_name']['count']}"] = x['text']
- 				end
- 				puts result
-				process_tweets(result)
- 		end
+ 				  end
+ 				  puts result
+				  process_tweets(result)
+ 		    end
 			break
 	
-end
+		end
 	else
  		puts "Invalid Username, Please input correct username"
  	end
