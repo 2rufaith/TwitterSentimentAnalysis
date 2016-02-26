@@ -1,4 +1,4 @@
-DESCRIPTION
+                                       DESCRIPTION
 
 The Importance of Sentiment Analysis in Social Media Analysis
 Mar 17, 20151,367 views13 Likes0 CommentsShare on LinkedInShare on FacebookShare on Twitter
@@ -19,7 +19,8 @@ Generate leads
 In a nutshell, if done properly, social media sentiment analysis can improve your bottom line.
 
 
-FEATURES
+                                      FEATURES
+
 This Project has the following specifications.
 
 Use the Twitter API authentication to fetch tweets for a particular user and save them in JSON file.
