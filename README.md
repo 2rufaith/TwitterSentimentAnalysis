@@ -1,13 +1,16 @@
-This Project hasthe following specifications.
+This Project has the following specifications.
 
->> Use the Twitter API to fetch tweets for a particular user and save them in JSON file (for a given period e.g. 1 week or 1 month depending on the volume).
+>> Use the Twitter API authentication to fetch tweets for a particular user and save them in JSON file.
 
->> Show % progress as the Twitter API is fetching the tweets.
 
->> Feel free to use any techniques to improve efficiency of fetching the tweets.
+>> A Command Line Interface where you have to input your username, the user_id of the person whose tweets you want to 
 
->> Perform a word-frequency analysis and list the words with their frequency starting from the highest to the lowest. Exclude stop-words.
+>fetch and the number of tweets you want to fetch.
 
->> Perform sentiment analysis using the Alchemy API [extra credits]
+>> Get a specific number of tweets or a particular tweet.
+
+>> Display tweets of a particular user with specified counts
+
+>> Perform a word-frequency analysis and list the words with their frequency starting from the highest to the lowest. 
 
 <a href="https://codeclimate.com/repos/56cf48e7ccc42e00890045b2/feed"><img src="https://codeclimate.com/repos/56cf48e7ccc42e00890045b2/badges/8ac69edd0f615cfb2cea/gpa.svg" /></a>
