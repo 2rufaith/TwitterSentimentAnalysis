@@ -12,7 +12,7 @@ puts "       EHIEMERE OGENNA FAITH       ".green
 					
 
 puts "Please Input Username".green
-while user_name == gets.chomp 
+while user_name = gets.chomp 
   if user_name == "2rufaith"
     class Twit
     # Exchange your oauth_token and oauth_token_secret for an AccessToken instance.
