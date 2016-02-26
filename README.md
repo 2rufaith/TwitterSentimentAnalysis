@@ -5,7 +5,7 @@ This Project has the following specifications.
 
 >> A Command Line Interface where you have to input your username, the user_id of the person whose tweets you want to 
 
->> fetch and the number of tweets you want to fetch.
+> fetch and the number of tweets you want to fetch.
 
 >> Get a specific number of tweets or a particular tweet.
 
